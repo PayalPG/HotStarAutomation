@@ -1,0 +1,19 @@
+{
+  "name":"HomePage",
+  "uiElements":[{
+    "elementName": "SearchIcon",
+    "by": "xpath",
+    "locator": "//div[@class='search']"
+  },
+    {
+      "elementName": "SearchTab",
+      "by": "xpath",
+      "locator": "//input[@placeholder='Search for shows, movies, sports and TV channels']"
+    },
+    {
+      "elementName": "SearchedText",
+      "by": "xpath",
+      "locator": "//*[@class='search-wrap']"
+    }
+  ]
+}
