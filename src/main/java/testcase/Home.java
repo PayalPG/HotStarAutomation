@@ -13,6 +13,9 @@ public class Home extends HotStarBaseClass{
 
     public ReadExcel readExcel=new ReadExcel();
 
+    /*
+    * This test case is used to search the item
+    * */
 
     @Test
     public void STC_004() throws InterruptedException {
