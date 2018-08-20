@@ -30,6 +30,7 @@ public class HotStarBaseClass {
     public ReadExcel readExcel=new ReadExcel();
     JavascriptExecutor js;
 
+    //Launch browser
     @BeforeSuite
     public  void launchBrowser() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver","C:\\setups\\chromedriver.exe");
