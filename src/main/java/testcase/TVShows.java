@@ -11,7 +11,7 @@ public class TVShows extends HotStarBaseClass{
     @Test
     public void STC_006(){
         homePage.navigateToPreferredMenu("TV");
-        tvPage.scrollToTheElement();
+        tvPage.scrollToTheElement();// scroll till the element
         tvPage.selectTVShow();
         String actualShowTitleText=tvPage.tapOnWatchList();
         homePage.navigateToPreferredMenu("Home");
